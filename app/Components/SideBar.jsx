@@ -16,8 +16,11 @@ function SideBar() {
           <Link className="w-full" href="/contactus">
             <Buttons button="Contact US" />
           </Link>
-          <Link className="w-full" href="/contactus">
-            <Buttons button="Contact US" />
+          <Link className="w-full" href="/charts">
+            <Buttons button="Charts" />
+          </Link>
+          <Link className="w-full" href="/maps">
+            <Buttons button="Maps" />
           </Link>
         </main>
       </aside>
