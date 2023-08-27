@@ -1,7 +1,7 @@
 import React from 'react'
 import SideBar from '../Components/SideBar';
 
-function page() {
+function Home() {
   return (
     <>
       <SideBar />
@@ -12,4 +12,4 @@ function page() {
   );
 }
 
-export default page
+export default Home
