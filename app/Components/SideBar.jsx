@@ -10,17 +10,11 @@ function SideBar() {
           <HiMenu className="h-6 w-6 text-white cursor-pointer" />
         </main>
         <main className="w-full flex items-center flex-col justify-center h-screen">
-          <Link className="w-full" href="/">
-            <Buttons button="Home" />
-          </Link>
           <Link className="w-full" href="/contactus">
             <Buttons button="Contact US" />
           </Link>
           <Link className="w-full" href="/charts">
             <Buttons button="Charts" />
-          </Link>
-          <Link className="w-full" href="/maps">
-            <Buttons button="Maps" />
           </Link>
         </main>
       </aside>
